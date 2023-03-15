@@ -41,10 +41,6 @@
                 <behavior>Edit</behavior>
                 <field>Probability</field>
             </layoutItems>
-            <layoutItems>
-                <behavior>Edit</behavior>
-                <field>Amount</field>
-            </layoutItems>
         </layoutColumns>
         <style>TwoColumnsTopToBottom</style>
     </layoutSections>
@@ -135,9 +131,6 @@
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewCase</quickActionName>
-        </quickActionListItems>
-        <quickActionListItems>
-            <quickActionName>NewNote</quickActionName>
         </quickActionListItems>
         <quickActionListItems>
             <quickActionName>NewEvent</quickActionName>
@@ -231,4 +224,10 @@
     <showInteractionLogPanel>false</showInteractionLogPanel>
     <showRunAssignmentRulesCheckbox>false</showRunAssignmentRulesCheckbox>
     <showSubmitAndAttachButton>false</showSubmitAndAttachButton>
+    <summaryLayout>
+        <masterLabel>00h8Y00000sOOGE</masterLabel>
+        <sizeX>4</sizeX>
+        <sizeY>0</sizeY>
+        <summaryLayoutStyle>Default</summaryLayoutStyle>
+    </summaryLayout>
 </Layout>
