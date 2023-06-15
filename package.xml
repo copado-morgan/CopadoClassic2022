@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
     <types>
+        <members>SharedDocuments</members>
+        <name>Document</name>
+    </types>
+    <types>
         <members>copado__Copado%2Ftest_doc</members>
         <name>Document</name>
     </types>
     <types>
+        <members>cms_document</members>
+        <name>ManagedContentType</name>
+    </types>
+    <types>
         <members>Doc_test</members>
         <name>PermissionSet</name>
+    </types>
+    <types>
+        <members>ContentDocument</members>
+        <name>TopicsForObjects</name>
     </types>
     <version>57.0</version>
 </Package>
