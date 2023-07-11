@@ -51,6 +51,10 @@
         <label>Additional Information</label>
         <layoutColumns>
             <layoutItems>
+                <behavior>Required</behavior>
+                <field>ForecastCategoryName</field>
+            </layoutItems>
+            <layoutItems>
                 <behavior>Edit</behavior>
                 <field>LeadSource</field>
             </layoutItems>
