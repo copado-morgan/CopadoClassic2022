@@ -228,6 +228,26 @@
     <enableFeeds>true</enableFeeds>
     <enableHistory>true</enableHistory>
     <externalSharingModel>Private</externalSharingModel>
+    <fieldSets>
+        <fullName>test_set</fullName>
+        <description>yes</description>
+        <displayedFields>
+            <field>MasterRecordId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>OwnerId</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <displayedFields>
+            <field>CreatedById</field>
+            <isFieldManaged>false</isFieldManaged>
+            <isRequired>false</isRequired>
+        </displayedFields>
+        <label>test set</label>
+    </fieldSets>
     <fields>
         <fullName>AccountNumber</fullName>
         <trackFeedHistory>false</trackFeedHistory>
