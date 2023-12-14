@@ -302,6 +302,8 @@
     </fields>
     <fields>
         <fullName>OwnerId</fullName>
+        <description>description goes here</description>
+        <inlineHelpText>help text goes here</inlineHelpText>
         <trackFeedHistory>true</trackFeedHistory>
         <trackHistory>false</trackHistory>
         <type>Lookup</type>
