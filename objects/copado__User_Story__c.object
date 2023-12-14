@@ -10758,7 +10758,7 @@ copado__Environment__c != copado__Org_Credential__r.copado__Environment__c</erro
     </validationRules>
     <validationRules>
         <fullName>copado__Test_scratch_orgs_cannot_be_used_for_dev</fullName>
-        <active>true</active>
+        <active>false</active>
         <errorConditionFormula>TEXT(copado__Org_Credential__r.copado__Org_Type__c) == &apos;Scratch Org - Test only&apos;</errorConditionFormula>
         <errorDisplayField>copado__Org_Credential__c</errorDisplayField>
         <errorMessage>Test scratch orgs cannot be used for developments</errorMessage>
