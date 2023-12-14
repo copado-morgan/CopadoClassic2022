@@ -8572,7 +8572,7 @@ ROUND(MOD((copadometrics__First_Time_Promoted_to_Production__c - copadometrics__
         <columns>copado__User_Story_Title__c</columns>
         <columns>copado__Story_Points_Other__c</columns>
         <columns>copado__Status__c</columns>
-        <filterScope>Mine</filterScope>
+        <filterScope>Everything</filterScope>
         <filters>
             <field>copado__Status__c</field>
             <operation>equals</operation>
